@@ -1,0 +1,18 @@
+# Dientes dataset
+train: 
+  C:/Users/ana.torres/BioMod/DetectarDientes/dataset_yolo/images/train  # Ruta a las imágenes de entrenamiento
+val: 
+  C:/Users/ana.torres/BioMod/DetectarDientes/dataset_yolo/images/val    # Ruta a las imágenes de validación
+
+# Rutas a las etiquetas (anotaciones) de entrenamiento y validación
+train_labels: 
+  C:/Users/ana.torres/BioMod/DetectarDientes/dataset_yolo/labels/train  # Ruta a las etiquetas de entrenamiento
+val_labels: 
+  C:/Users/ana.torres/BioMod/DetectarDientes/dataset_yolo/labels/val    # Ruta a las etiquetas de validación
+
+# Número de clases
+nc: 16
+
+# Nombres de las clases
+names: ['11', '12', '13', '14', '15', '16', '17', '18', '21', '22', '23', '24', '25', '26', '27', '28']
+ 
